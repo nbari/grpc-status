@@ -1,12 +1,13 @@
 pub mod hello_world {
     tonic::include_proto!("helloworld");
 }
+use anyhow::Result;
 use grpc_status::options;
 use hello_world::{greeter_client::GreeterClient, HelloRequest};
 use tonic::Code;
 
 #[tokio::main]
-async fn main() -> Result<(), Box<dyn std::error::Error>> {
+async fn main() -> Result<()> {
     let endpoint = options::new();
     let mut client = GreeterClient::connect(endpoint).await?;
 

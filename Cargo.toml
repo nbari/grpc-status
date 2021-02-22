@@ -2,14 +2,15 @@
 name = "grpc-status"
 version = "0.1.0"
 authors = ["nbari <nbari@tequila.io>"]
-edition = "2018"
-documentation = "https://github.com/nbari/grpc-status/blob/master/README.md"
-homepage = "https://github.com/nbari/grpc-status"
-repository = "https://github.com/nbari/grpc-status"
-readme = "README.md"
-keywords = ["grpc", "status", "rpc", "endpoint", "cli"]
 categories = ["web-programming", "network-programming"]
+documentation = "https://github.com/nbari/grpc-status/blob/master/README.md"
+description = "gRPC client to retrieve status codes"
+edition = "2018"
+homepage = "https://github.com/nbari/grpc-status"
+keywords = ["grpc", "status", "codes", "endpoint", "cli"]
 license = "BSD-3-Clause"
+readme = "README.md"
+repository = "https://github.com/nbari/grpc-status"
 
 [dependencies]
 anyhow = "1"

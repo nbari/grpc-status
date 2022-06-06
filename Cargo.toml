@@ -16,7 +16,7 @@ repository = "https://github.com/nbari/grpc-status"
 anyhow = "1"
 clap = "2.33"
 prost = "0.7"
-tokio = { version = "1.0", features = ["macros", "rt-multi-thread"] }
+tokio = { version = "1.8", features = ["macros", "rt-multi-thread"] }
 tonic = "0.4"
 
 [build-dependencies]
